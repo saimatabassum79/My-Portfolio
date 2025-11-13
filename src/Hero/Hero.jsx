@@ -14,7 +14,7 @@ const Hero = () => {
         <div ref={homeRef} className="flex flex-col px-4 sm:px-10 md:flex-row my-10 justify-between items-center max-w-[1400px] mx-auto ">
 
 
-            <div className="flex-1 space-y-6 border md:pr-10 md:pl-20 my-4 sm:my-0">
+            <div className="flex-1 space-y-6 border md:pr-10 md:pl-20 pl-5 my-4 sm:my-0">
                 <h1 className="sm:text-5xl text-3xl font-bold text-[#56c5f4]">
                     <TextType text={["Saima Tabassum"]}
                         typingSpeed={75}

@@ -17,10 +17,7 @@ export const Footer = () => {
                            <HiOutlineLocationMarker className="text-[#56c5f4] w-9 h-9 mt-0.5" />
                            <span>2548 Broaddus Maple Court, Madisonville KY 4783, USA.</span>
                          </li>
-                         <li className="flex items-center justify-center mr-50 lg:mr-0 gap-2">
-                           <AiOutlinePhone className="text-[#56c5f4] lg:w-5 w-7 h-7 lg:h-5" />
-                           <span>+00 9876543210</span>
-                         </li>
+                        
                          <li className="flex items-center mr-40 lg:mr-0 justify-center sm:justify-start gap-2">
                            <AiOutlineMail className="text-[#56c5f4] lg:w-5 w-7 h-7 lg:h-5" />
                            <span>example@email.com</span>
