@@ -64,7 +64,7 @@ const Navber = () => {
 
                 <div className="">
                     <a
-                        href="https://drive.google.com/file/d/1XSQxAI_RwonvghV6mtSdy9iYxvyVcB7F/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1GEzadpX_VzFhHknYlF3cc_YuccfI3wIt/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="resume"
