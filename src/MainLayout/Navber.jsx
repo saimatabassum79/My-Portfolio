@@ -74,7 +74,7 @@ const Navber = () => {
                     </a>
                 </div>
                 <button
-                    className="md:hidden text-2xl text-gray-600"
+                    className="md:hidden text-2xl text-gray-200"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     {isOpen ? <FaTimes /> : <FaBars />}

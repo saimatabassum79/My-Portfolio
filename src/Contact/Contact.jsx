@@ -69,7 +69,7 @@ const Contact = () => {
             <MdOutlineMail />
           </div>
           <h3 className="text-lg font-semibold text-gray-100 mb-1">Email </h3>
-          <p className="text-gray-100">info@example.com</p>
+          <p className="text-gray-100">saimatabassum549@gmail.com</p>
           <p className="text-gray-100">support@example.com</p>
         </motion.div>
 
@@ -102,7 +102,7 @@ const Contact = () => {
         >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5254.062203577742!2d90.40840517598211!3d23.77985165974876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1762890347353!5m2!1sen!2sbd"
-            className="w-full h-80 sm:h-96 border-0"
+            className="w-full h-80 sm:h-105 border-0"
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -123,24 +123,24 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full text-sm py-2 px-3 border border-[#56c5f4] rounded-md focus:outline-none focus:ring-2 focus:ring-[#5CAF90] transition"
+              className="w-full text-sm py-2 px-3 border border-[#56c5f4] rounded-md focus:outline-none focus:ring-2 focus:ring-[#56c5f4] transition"
             />
             <input
               type="text"
               placeholder="Your Phone"
-              className="w-full text-sm py-2 px-3 border border-[#56c5f4] rounded-md focus:outline-none focus:ring-2 focus:ring-[#5CAF90] transition"
+              className="w-full text-sm py-2 px-3 border border-[#56c5f4] rounded-md focus:outline-none focus:ring-2 focus:ring-[#56c5f4] transition"
             />
             <input
               type="email"
               placeholder="Email Address"
-              className="w-full py-2 text-sm px-3 border border-[#56c5f4] rounded-md focus:outline-none focus:ring-2 focus:ring-[#5CAF90] transition"
+              className="w-full py-2 text-sm px-3 border border-[#56c5f4] rounded-md focus:outline-none focus:ring-2 focus:ring-[#56c5f4] transition"
             />
             <textarea
               rows="5"
               placeholder="Your Message"
               className="w-full py-2 text-sm px-3 border border-[#56c5f4] rounded-md focus:outline-none focus:ring-2 focus:ring-[#56c5f4] transition resize-none"
             ></textarea>
-            <button className="bg-[#56c5f4] hover:bg-[#1f6989] text-white py-2 rounded-md font-semibold transition-all duration-300">
+            <button className="bg-[#2ab1eb] hover:bg-[#1f6989] text-white py-2 rounded-md font-semibold transition-all duration-300">
               Submit
             </button>
           </form>

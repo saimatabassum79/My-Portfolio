@@ -72,7 +72,7 @@ const Hero = () => {
                 </div>
                 <div className="flex flex-wrap gap-2 sm:gap-4">
                     <a
-                        href="https://drive.google.com/file/d/1XSQxAI_RwonvghV6mtSdy9iYxvyVcB7F/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1GEzadpX_VzFhHknYlF3cc_YuccfI3wIt/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="LeetCode"
@@ -101,7 +101,7 @@ const Hero = () => {
                     <img
                         src={photo}
                         alt="center"
-                        className="absolute px-13 py-1 top-1/2 left-1/2 shadow-lg shadow-[#56c5f4]  w-[80%] sm:w-[90%] -translate-x-1/2 -translate-y-1/2 rounded-full"
+                        className="absolute lg:px-13 px-10  lg:py-1  top-1/2 left-1/2 shadow-lg shadow-[#56c5f4]  w-[80%] sm:w-[90%] -translate-x-1/2 -translate-y-1/2 rounded-full"
                     />
                 </div>
             </div>
