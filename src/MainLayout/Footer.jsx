@@ -7,10 +7,11 @@ import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 export const Footer = () => {
     return (
-        <footer className="bg-black/80 backdrop-blur-md text-gray-300 px-4 pt-16 max-w-[1400px] mx-auto md:px-24 lg:px-8">
+       <div className="bg-[#0A0F18]">
+         <footer className=" backdrop-blur-md text-gray-300 px-4 lg:pt-16 pt-5 max-w-[1400px] mx-auto md:px-24 lg:px-8">
             <div className="grid gap-16  mb-8 grid-cols-1 lg:grid-cols-5">
 
-              <div>
+              <div className=" hidden md:block">
                        <h3 className="font-semibold text-[#56c5f4] text-lg mb-3">Contact</h3>
                        <ul className="space-y-3 text-sm">
                          <li className="flex items-start justify-center sm:justify-start gap-2">
@@ -28,7 +29,7 @@ export const Footer = () => {
                      </div>
 
 
-                <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+                <div className="grid grid-cols-2 lg:gap-5 gap-9 row-gap-8 lg:col-span-4 md:grid-cols-4">
                     <div>
                         <p className="font-semibold tracking-wide text-[#56c5f4]">Category</p>
                         <ul className="mt-2 space-y-2">
@@ -42,7 +43,7 @@ export const Footer = () => {
                         <p className="font-semibold tracking-wide text-[#56c5f4]">Business</p>
                         <ul className="mt-2 space-y-2">
                             <li><Link to="/web" className="text-gray-400 hover:text-[#56c5f4] transition">Web</Link></li>
-                            <li><Link to="/ecommerce" className="text-gray-400 hover:text-[#56c5f4] transition">eCommerce</Link></li>
+                            <li><Link to="/ecommerce" className="text-gray-400 hover:text-[#56c5f4] transition">Ecommerce</Link></li>
                             <li><Link to="/portfolio" className="text-gray-400 hover:text-[#56c5f4] transition">Portfolio</Link></li>
                             <li><Link to="/entertainment" className="text-gray-400 hover:text-[#56c5f4] transition">Entertainment</Link></li>
                         </ul>
@@ -69,9 +70,9 @@ export const Footer = () => {
                         </p>
 
                         {/* App Store Buttons (text version, no image) */}
-                     <div className="flex gap-5 mt-4 justify-center sm:justify-start text-gray-600 text-lg">
+                     <div className="flex gap-5 mr-9 lg:mr-0 mt-4 justify-center sm:justify-start text-gray-600 text-lg">
                          <FaFacebookF className="cursor-pointer text-[#56c5f4]" />
-                         <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer" className="text-[#56c5f4]  transition"><FaGithub className="h-5 w-5" /></a>
+                         <a href="" target="_blank" rel="noopener noreferrer" className="text-[#56c5f4]  transition"><FaGithub className="h-5 w-5" /></a>
                          <FaLinkedinIn className="cursor-pointer text-[#56c5f4]" />
                          <FaInstagram className="cursor-pointer text-[#56c5f4]" />
                        </div>
@@ -82,10 +83,11 @@ export const Footer = () => {
 
             <div className=" justify-between pt-5 pb-10 border-t border-gray-700 sm:flex-row">
                 <p className="text-sm text-center text-gray-400">
-                    © {new Date().getFullYear()} Adnan. All rights reserved.
+                    © {new Date().getFullYear()} Saima. All rights reserved.
                 </p>
                
             </div>
         </footer>
+       </div>
     );
 };

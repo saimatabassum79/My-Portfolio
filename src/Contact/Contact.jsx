@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <section ref={contactRef} className="py-24 px-4 sm:px-8 lg:px-24  text-gray-100">
+    <section ref={contactRef} className="py-24 px-5 sm:px-8 lg:px-24  text-gray-100">
       
       {/* Title Section */}
       <motion.div
@@ -40,7 +40,7 @@ const Contact = () => {
       </motion.div>
 
       {/* Contact Info Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6  mb-10">
         <motion.div
           custom={1}
           initial="hidden"

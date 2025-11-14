@@ -70,7 +70,7 @@ const Hero = () => {
 
                    
                 </div>
-                <div className="flex flex-wrap gap-2 sm:gap-4">
+                <div className="flex flex-wrap lg:gap-2 gap-4 sm:gap-4">
                     <a
                         href="https://drive.google.com/file/d/1GEzadpX_VzFhHknYlF3cc_YuccfI3wIt/view?usp=sharing"
                         target="_blank"

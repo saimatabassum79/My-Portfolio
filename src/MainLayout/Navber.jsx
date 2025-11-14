@@ -74,7 +74,7 @@ const Navber = () => {
                     </a>
                 </div>
                 <button
-                    className="md:hidden text-2xl text-gray-200"
+                    className="md:hidden text-2xl text-gray-300"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     {isOpen ? <FaTimes /> : <FaBars />}
@@ -114,10 +114,10 @@ const Navber = () => {
                         <li>
                             <li className=" w-full">
                                 <a
-                                    href="https://drive.google.com/file/d/1XSQxAI_RwonvghV6mtSdy9iYxvyVcB7F/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1GEzadpX_VzFhHknYlF3cc_YuccfI3wIt/view?usp=sharing"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="block w-full px-3 sm:px-6 py-1 sm:py-2 bg-green-400 shadow-lg shadow-white/30 text-black rounded-lg hover:bg-green-600 transition text-sm sm:text-base text-center"
+                                    className="block w-full px-3 sm:px-6 py-1 sm:py-2 bg-[#56c5f4] shadow-lg shadow-white/30 text-black rounded-lg hover:bg-[#14739c] hover:text-white transition text-sm sm:text-base text-center"
                                 >
                                     Resume
                                 </a>
