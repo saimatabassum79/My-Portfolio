@@ -83,7 +83,7 @@ export const Footer = () => {
 
             <div className=" justify-between pt-5 pb-10 border-t border-gray-700 sm:flex-row">
                 <p className="text-sm text-center text-gray-400">
-                    © {new Date().getFullYear()} Saima. All rights reserved.
+                    © {new Date().getFullYear()} <span className="text-[#35b8f1]">Saima</span>. All rights reserved.
                 </p>
                
             </div>

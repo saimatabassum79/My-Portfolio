@@ -36,24 +36,23 @@ const projects = [
       "Built with React, Tailwind CSS, React Router",
     ],
   },
-  {
-    id: 3,
-    name: "B2B Marketplace",
-    purpose:
-      "A B2B marketplace for wholesalers and buyers. Integrated with authentication, cart, and online payments. Built using React, Node.js, and MongoDB.",
-    roles: {
-      admin: ["Manage products & categories", "Monitor buyers & suppliers", "Approve transactions"],
-      supplier: ["Add products", "Manage inventory", "Track orders"],
-      buyer: ["Browse products", "Place orders", "Manage cart"],
-    },
-    keyFeatures: [
-      "Role-based access (Admin, Supplier, Buyer)",
-      "Product display in card & table formats",
-      "Cart system with dynamic quantity",
-      "Authentication & protected routes",
-      "Responsive UI with Tailwind CSS",
-    ],
-  },
+{
+id: 3,
+name: "SocialHub",
+purpose:
+"SocialHub is a smart platform to discover and download trending apps all in one place, offering a simple and seamless experience.",
+roles: {
+user: ["Browse trending apps", "Download apps", "Stay updated with latest releases"],
+admin: ["Manage app listings", "Monitor downloads", "Feature trending apps"],
+},
+keyFeatures: [
+"Discover trending apps",
+"Download apps directly",
+"Easy navigation and search",
+"Responsive design for all devices",
+"Built with React, Tailwind CSS, React Router",
+],
+},
 ];
 
 const ProjectsDetails = ({ isOpen, close, storeId }) => {
@@ -78,7 +77,7 @@ const ProjectsDetails = ({ isOpen, close, storeId }) => {
       <div className="fixed inset-0 bg-black/10 backdrop-blur-sm transition-opacity" />
 
       <div className="fixed inset-0 z-20 flex min-h-full items-center justify-center p-4">
-        <DialogPanel className="w-full max-w-lg max-h-[80vh] overflow-y-auto rounded-xl bg-white/20 p-5 backdrop-blur-xl shadow-lg border border-white/20 duration-300 ease-out text-white">
+        <DialogPanel className="w-full max-w-lg max-h-[80vh] overflow-y-auto rounded-xl bg-white/30 p-5 backdrop-blur-xl shadow-lg border border-white/20 duration-300 ease-out text-white">
           <DialogTitle className="text-lg font-semibold text-center mb-3">
             {details.name}
           </DialogTitle>

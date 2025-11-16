@@ -11,7 +11,7 @@ const ProjectCard = ({
   liveLink,
   clientRepo,
   serverRepo,
-  accent = "#22c55e",
+  
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [storeId, setStoreId] = useState(null);
@@ -65,16 +65,9 @@ const ProjectCard = ({
             rel="noopener noreferrer"
             className="px-4 py-1 bg-[#0591cd] text-sm rounded-md shadow hover:scale-105 transition-transform"
           >
-            Client
+            Github
           </a>
-          <a
-            href={serverRepo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-1 bg-[#0591cd] text-sm rounded-md shadow hover:scale-105 transition-transform"
-          >
-            Server
-          </a>
+         
           <button
             onClick={() => {
               setIsOpen(true);
@@ -82,7 +75,7 @@ const ProjectCard = ({
             }}
             className="px-4 py-1 border border-[#0591cd] text-white text-sm rounded-md hover:bg-[#0e709a] hover:text-[#ffffff] transition-all"
           >
-            Details
+            View Details
           </button>
           {isOpen && (
             <ProjectsDetails
@@ -101,11 +94,11 @@ export default function SpotlightProjects() {
   const projects = [
     {
       id: 1,
-      image: "https://i.ibb.co.com/bRyLvGBd/Screenshot-2025-11-13-191914.png",
+      image: "https://i.ibb.co.com/Cshg4pRC/Screenshot-2025-11-16-211509.png",
       title: "Nest Mart",
       subtitle: "Shop Smarter with React & Tailwind",
       description:
-        "A modern e-commerce web application developed using React, Tailwind CSS, and React Router, offering seamless navigation, product filtering features for an engaging shopping experience.",
+        "Nest Mart is a modern e-commerce app built with React, Tailwind CSS, and React Router, offering smooth navigation and product filtering.",
       liveLink: "https://my-project-2-nested-router-pmd8.vercel.app/",
       clientRepo:
         "https://github.com/saimatabassum79/my-project-2-Nested-Router-",
@@ -115,11 +108,11 @@ export default function SpotlightProjects() {
     },
     {
       id: 2,
-      image: "https://i.ibb.co.com/tTmhWMGR/Screenshot-2025-11-13-191935.png",
+      image: "https://i.ibb.co.com/tPM20Zcf/Screenshot-2025-11-16-211449.png",
       title: "ShopHeaven",
       subtitle: "Your Heaven for Every Product You Need",
       description:
-        "ShopHeaven is a modern e-commerce platform built with React, Tailwind CSS, and React Router, featuring dynamic product filtering, cart and wishlist management, and a smooth, responsive shopping experience.",
+        "ShopHeaven is a modern e-commerce platform with product filtering, cart & wishlist features, built using React, Tailwind CSS, and React Router.",
       liveLink: "https://my-project-1-react-router.vercel.app/",
       clientRepo: "https://github.com/saimatabassum79/my-project-1-react-router-",
       serverRepo: "https://github.com/saimatabassum79/my-project-1-react-router-",
@@ -127,12 +120,12 @@ export default function SpotlightProjects() {
     },
     {
       id: 3,
-      image: "https://i.ibb.co.com/B2q4Gvvn/Screenshot-2025-11-13-215225.png",
-      title: "B2B Marketplace",
-      subtitle: "E-commerce MERN Stack App",
+      image: "https://i.ibb.co.com/nqprTT5y/Screenshot-2025-11-16-211350.png",
+      title: "SocialHub",
+      subtitle: "Explore Trends, Connect Smarter",
       description:
-        "A B2B marketplace for wholesalers and buyers. Integrated with authentication, cart, and online payments. Built using React, Node.js, and MongoDB.",
-      liveLink: "https://social-hub-porjects.vercel.app/",
+        "SocialHub is a smart platform to discover and download trending apps in one place, offering a simple and seamless experience. Built with React, Tailwind CSS, and React Router.",
+      liveLink: "https://socialhub2saima-new.vercel.app/",
       clientRepo: "https://github.com/saimatabassum79/SocialHub-porjects",
       serverRepo: "https://github.com/saimatabassum79/SocialHub-porjects",
       accent: "#f472b6",
