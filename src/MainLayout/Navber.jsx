@@ -53,7 +53,7 @@ const Navber = () => {
                                         goToProjectSection(homeRef)
                                     }
                                 }}
-                                className="text-white hover:text-[#56c5f4] transition"
+                                className="text-white hover:text-[#56c5f4] cursor-pointer transition"
                             >
                                 {item.name}
                             </button>

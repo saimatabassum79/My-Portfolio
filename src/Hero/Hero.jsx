@@ -31,9 +31,25 @@ const Hero = () => {
                     />
                 </h2>
                 <p className="text-gray-300 text-[14px] sm:text-lg max-w-lg">
-                    Web developer from <span className="text-[#56c5f4]">Bangladesh</span>, building modern & responsive web applications.
+                   I build modern, responsive web applications with React, Tailwind CSS, and Next.js. My passion is  interactive interfaces and seamless user experiences.
                 </p>
-
+                   <div className="flex flex-wrap lg:gap-2 gap-4 sm:gap-4">
+                    <a
+                        href="https://drive.google.com/file/d/1GEzadpX_VzFhHknYlF3cc_YuccfI3wIt/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LeetCode"
+                        className="px-3 sm:px-6 py-1 sm:py-2 bg-[#56c5f4] shadow-lg shadow-white/30 text-black rounded-lg hover:bg-[#0591cd] transition text-sm sm:text-base"
+                    >
+                        Resume
+                    </a>
+                    <button
+                        onClick={()=>goToProjectSection(contactRef)}
+                        className="px-3 sm:px-6 py-1 sm:py-2 border border-[#56c5f4]  shadow-lg shadow-white/30 text-[#56c5f4] rounded-lg hover:bg-[#0e9ddb] hover:text-white transition text-sm sm:text-base"
+                    >
+                        Contact Me
+                    </button>
+                </div>
                 <div className="flex items-center gap-3">
                     <a
                         href="https://www.linkedin.com/in/saima-tabassum-460430396/"
@@ -65,28 +81,9 @@ const Hero = () => {
                         className="flex items-center justify-center p-2 shadow-md bg-white/10 rounded-full text-[#56c5f4] hover:bg-[#23aae4]  hover:text-black transition"
                     >
                         <FaFacebook className="w-5 h-5 sm:w-6 sm:h-6" />
-                    </a>
-
-
-                   
+                    </a>    
                 </div>
-                <div className="flex flex-wrap lg:gap-2 gap-4 sm:gap-4">
-                    <a
-                        href="https://drive.google.com/file/d/1GEzadpX_VzFhHknYlF3cc_YuccfI3wIt/view?usp=sharing"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="LeetCode"
-                        className="px-3 sm:px-6 py-1 sm:py-2 bg-[#56c5f4] shadow-lg shadow-white/30 text-black rounded-lg hover:bg-[#0591cd] transition text-sm sm:text-base"
-                    >
-                        Resume
-                    </a>
-                    <button
-                        onClick={()=>goToProjectSection(contactRef)}
-                        className="px-3 sm:px-6 py-1 sm:py-2 border border-[#56c5f4]  shadow-lg shadow-white/30 text-[#56c5f4] rounded-lg hover:bg-[#0e9ddb] hover:text-white transition text-sm sm:text-base"
-                    >
-                        Contact Me
-                    </button>
-                </div>
+               
             </div>
 
 
