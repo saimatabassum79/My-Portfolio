@@ -4,6 +4,35 @@ import { Dialog, DialogPanel, DialogTitle } from "@headlessui/react";
 const projects = [
   {
     id: 1,
+    name: "Online Platform",
+    purpose:
+      "A fully responsive e-commerce platform built with Next.js, React, and Tailwind CSS, offering seamless navigation, smart product filtering, and a smooth online shopping experience.",
+    roles: {
+      admin: [
+        "Manage products & categories",
+        "Control inventory and pricing",
+        "Monitor user activities",
+        "Handle orders efficiently"
+      ],
+      customer: [
+        "Browse and filter products easily",
+        "Add items to cart & wishlist",
+        "View detailed product information",
+        "Checkout securely with smooth navigation"
+      ],
+    },
+    keyFeatures: [
+      "Smart category-based product filtering",
+      "Dynamic routing with Next.js",
+      "Modern UI using Tailwind CSS",
+      "Optimized performance and fast loading",
+      "Responsive layout for all devices",
+      "Smooth and intuitive shopping experience",
+    ],
+  },
+
+  {
+    id: 2,
     name: "Nest Mart",
     purpose:
       "A modern e-commerce web application developed using React, Tailwind CSS, and React Router, offering seamless navigation, product filtering features for an engaging shopping experience.",
@@ -20,7 +49,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "ShopHeaven",
     purpose:
       "ShopHeaven is a modern e-commerce platform built with React, Tailwind CSS, and React Router, featuring dynamic product filtering, cart and wishlist management, and a smooth, responsive shopping experience.",
@@ -36,23 +65,23 @@ const projects = [
       "Built with React, Tailwind CSS, React Router",
     ],
   },
-{
-id: 3,
-name: "SocialHub",
-purpose:
-"SocialHub is a smart platform to discover and download trending apps all in one place, offering a simple and seamless experience.",
-roles: {
-user: ["Browse trending apps", "Download apps", "Stay updated with latest releases"],
-admin: ["Manage app listings", "Monitor downloads", "Feature trending apps"],
-},
-keyFeatures: [
-"Discover trending apps",
-"Download apps directly",
-"Easy navigation and search",
-"Responsive design for all devices",
-"Built with React, Tailwind CSS, React Router",
-],
-},
+  {
+    id: 4,
+    name: "SocialHub",
+    purpose:
+      "SocialHub is a smart platform to discover and download trending apps all in one place, offering a simple and seamless experience.",
+    roles: {
+      user: ["Browse trending apps", "Download apps", "Stay updated with latest releases"],
+      admin: ["Manage app listings", "Monitor downloads", "Feature trending apps"],
+    },
+    keyFeatures: [
+      "Discover trending apps",
+      "Download apps directly",
+      "Easy navigation and search",
+      "Responsive design for all devices",
+      "Built with React, Tailwind CSS, React Router",
+    ],
+  },
 ];
 
 const ProjectsDetails = ({ isOpen, close, storeId }) => {

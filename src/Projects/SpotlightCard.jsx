@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import ProjectsDetails from "./ProjectsDetails";
+import { Link } from "react-router";
 
 const ProjectCard = ({
   id,
@@ -82,9 +83,25 @@ const ProjectCard = ({
 };
 
 export default function SpotlightProjects() {
+  const [showAll, setShowAll] = useState(false);
+   
   const projects = [
     {
       id: 1,
+      image: "https://i.ibb.co.com/rGmcHRJk/Screenshot-2025-11-20-202247.png",
+      title: "Online Platform",
+      subtitle: "Effortless Online Shopping with Next.js",
+      description:
+        "A fully responsive e-commerce platform built with React,Tailwind CSS and Next.js, featuring category-based product filtering, dynamic routing, and a smooth shopping experience.",
+      liveLink: "https://next-js-project-4-alpha.vercel.app/",
+      clientRepo:
+        "https://github.com/saimatabassum79/Next-js-project-4",
+     
+      accent: "#22c55e",
+    },
+
+    {
+      id: 2,
       image: "https://i.ibb.co/TD8LZfjG/Screenshot-2025-11-18-213357.png",
       title: "Nest Mart",
       subtitle: "Shop Smarter with React & Tailwind",
@@ -93,12 +110,11 @@ export default function SpotlightProjects() {
       liveLink: "https://my-project-2-nested-router-pmd8.vercel.app/",
       clientRepo:
         "https://github.com/saimatabassum79/my-project-2-Nested-Router-",
-      serverRepo:
-        "https://github.com/saimatabassum79/my-project-2-Nested-Router-",
+      
       accent: "#22c55e",
     },
     {
-      id: 2,
+      id: 3,
       image: "https://i.ibb.co/5x4Bzjfy/Screenshot-2025-11-18-224151.png",
       title: "Trouble",
       subtitle: "Conquer Challenges, Effortlessly",
@@ -106,11 +122,11 @@ export default function SpotlightProjects() {
         "Trouble is a smart platform to discover and popular tours in one place, offering a simple and seamless experience. Built with React, Tailwind CSS, and React Router.",
       liveLink: "https://products-shop-project-3.vercel.app/",
       clientRepo: "https://github.com/saimatabassum79/Products-Shop-project-3",
-      serverRepo: "https://github.com/saimatabassum79/Products-Shop-project-3",
+     
       accent: "#f472b6",
     },
     {
-      id: 3,
+      id: 4,
       image: "https://i.ibb.co.com/KzQzJhqB/Screenshot-2025-11-19-013241.png",
       title: "ShopHeaven",
       subtitle: "Your Heaven for Every Product You Need",
@@ -118,11 +134,11 @@ export default function SpotlightProjects() {
         "ShopHeaven is a modern e-commerce platform with product filtering, cart & wishlist features, built using React, Tailwind CSS, and React Router.",
       liveLink: "https://my-project-1-react-router.vercel.app/",
       clientRepo: "https://github.com/saimatabassum79/my-project-1-react-router-",
-      serverRepo: "https://github.com/saimatabassum79/my-project-1-react-router-",
+      
       accent: "#06b6d4",
     },
   ];
-
+  const visibleProjects = showAll ? projects : projects.slice(0, 3);
   return (
     <section className="py-16 px-6 sm:px-12 bg-[#0a0f18] text-white">
       <motion.h2
@@ -135,9 +151,20 @@ export default function SpotlightProjects() {
       </motion.h2>
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        {projects.map((proj) => (
+        {visibleProjects.map((proj) => (
           <ProjectCard key={proj.id} {...proj} />
         ))}
+
+      </div>
+      
+       {/* VIEW ALL BUTTON */}
+      <div className="text-center mt-14">
+        <button
+          onClick={() => setShowAll(!showAll)}
+          className="px-8 py-3 rounded-full bg-[#0591cd] text-white text-lg font-semibold shadow hover:bg-[#0e709a] transition"
+        >
+          {showAll ? "View Less" : "View All Projects"}
+        </button>
       </div>
     </section>
   );
