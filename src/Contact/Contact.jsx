@@ -25,7 +25,7 @@ const Contact = () => {
  
   const {contactRef} =useContext(AuthContext)
   return (
-    <section ref={contactRef} className="py-24 px-6 sm:px-12 bg-[#050b18] text-white">
+    <section ref={contactRef} className="py-24 px-6 container mx-auto sm:px-12 bg-[#050b18] text-white">
       <motion.h2
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
