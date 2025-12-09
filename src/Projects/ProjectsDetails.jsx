@@ -66,7 +66,33 @@ const projects = [
     ],
   },
   {
-    id: 4,
+  id: 4, 
+  name: "JobHunt",
+  purpose:
+    "JobHunt is a smart platform to discover and apply for jobs in one place, offering a simple and seamless experience.",
+  roles: {
+    user: [
+      "Browse job listings",
+      "Apply for jobs",
+      "Stay updated with latest openings",
+    ],
+    admin: [
+      "Manage job postings",
+      "Monitor applications",
+      "Feature top job listings",
+    ],
+  },
+  keyFeatures: [
+    "Discover trending job opportunities",
+    "Apply for jobs directly from the platform",
+    "Easy navigation and search",
+    "Responsive design for all devices",
+    "Built with React, Tailwind CSS, React Router",
+  ],
+},
+
+  {
+    id: 5,
     name: "SocialHub",
     purpose:
       "SocialHub is a smart platform to discover and download trending apps all in one place, offering a simple and seamless experience.",

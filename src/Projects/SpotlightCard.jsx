@@ -113,20 +113,8 @@ export default function SpotlightProjects() {
       
       accent: "#22c55e",
     },
-    {
+     {
       id: 3,
-      image: "https://i.ibb.co/5x4Bzjfy/Screenshot-2025-11-18-224151.png",
-      title: "Trouble",
-      subtitle: "Conquer Challenges, Effortlessly",
-      description:
-        "Trouble is a smart platform to discover and popular tours in one place, offering a simple and seamless experience. Built with React, Tailwind CSS, and React Router.",
-      liveLink: "https://products-shop-project-3.vercel.app/",
-      clientRepo: "https://github.com/saimatabassum79/Products-Shop-project-3",
-     
-      accent: "#f472b6",
-    },
-    {
-      id: 4,
       image: "https://i.ibb.co.com/KzQzJhqB/Screenshot-2025-11-19-013241.png",
       title: "ShopHeaven",
       subtitle: "Your Heaven for Every Product You Need",
@@ -137,6 +125,31 @@ export default function SpotlightProjects() {
       
       accent: "#06b6d4",
     },
+     {
+  id: 4, 
+  image: "https://i.ibb.co.com/dsKXJLxn/Screenshot-2025-12-09-111247.png",
+  title: "JobHunt",
+  subtitle: "Find Your Dream Job, Effortlessly",
+  description:
+    "JobHunt is a smart platform to discover and apply for jobs in one place, offering a simple and seamless experience. Built with React, Tailwind CSS, and React Router.",
+  liveLink: "https://my-jobhunt-website-cobo.vercel.app/", 
+  clientRepo: "https://github.com/saimatabassum79/My-Jobhunt-Website", 
+  accent: "#f472b6",
+},
+
+    {
+      id: 5,
+      image: "https://i.ibb.co/5x4Bzjfy/Screenshot-2025-11-18-224151.png",
+      title: "Trouble",
+      subtitle: "Conquer Challenges, Effortlessly",
+      description:
+        "Trouble is a smart platform to discover and popular tours in one place, offering a simple and seamless experience. Built with React, Tailwind CSS, and React Router.",
+      liveLink: "https://products-shop-project-3.vercel.app/",
+      clientRepo: "https://github.com/saimatabassum79/Products-Shop-project-3",
+     
+      accent: "#f472b6",
+    },
+   
   ];
   const visibleProjects = showAll ? projects : projects.slice(0, 3);
   return (
