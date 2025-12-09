@@ -90,7 +90,6 @@ const projects = [
     "Built with React, Tailwind CSS, React Router",
   ],
 },
-
   {
     id: 5,
     name: "SocialHub",

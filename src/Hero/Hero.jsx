@@ -35,7 +35,7 @@ const Hero = () => {
                 </p>
                    <div className="flex flex-wrap lg:gap-2 gap-4 sm:gap-4">
                     <a
-                        href="https://drive.google.com/file/d/1GEzadpX_VzFhHknYlF3cc_YuccfI3wIt/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1ilqt0M1hX_dC-1o9I045msCSd3LMLpza/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="LeetCode"
