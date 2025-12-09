@@ -93,7 +93,7 @@ export default function SpotlightProjects() {
       subtitle: "Effortless Online Shopping with Next.js",
       description:
         "A fully responsive e-commerce platform built with React,Tailwind CSS and Next.js, featuring category-based product filtering, dynamic routing, and a smooth shopping experience.",
-      liveLink: "https://next-js-project-4-alpha.vercel.app/",
+      liveLink: "https://next-js-project-4-mav2b35f0-saima-tabassums-projects-781fcc27.vercel.app/",
       clientRepo:
         "https://github.com/saimatabassum79/Next-js-project-4",
      
