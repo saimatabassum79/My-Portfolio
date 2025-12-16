@@ -9,8 +9,9 @@ const Navber = () => {
 
     const menuItems = [
         { name: "Home" },
+         { name: "About" },
         { name: 'Skill' },
-        { name: "About" },
+       
         { name: "Projects" },
         { name: "Contact" },
     ];
@@ -27,7 +28,7 @@ const Navber = () => {
                     className="text-2xl font-bold text-green-400"
                     onClick={() => goToProjectSection(homeRef)}
                 >
-                    <img className="w-18 " src={logo} alt="" />
+                    <img className="w-18 cursor-pointer " src={logo} alt="" />
                 </button>
 
 
@@ -93,12 +94,13 @@ const Navber = () => {
 
                                             goToProjectSection(targetRef)
                                         }
+                                         else if (item?.name == 'About') {
+                                            goToProjectSection(aboutRef)
+                                        }
                                         else if (item?.name == 'Skill') {
                                             goToProjectSection(SkillRef)
                                         }
-                                        else if (item?.name == 'About') {
-                                            goToProjectSection(aboutRef)
-                                        }
+                                       
                                         else if (item?.name === 'Contact') {
                                             goToProjectSection(contactRef)
                                         } else {

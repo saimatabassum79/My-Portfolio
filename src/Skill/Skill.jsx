@@ -5,17 +5,17 @@ import { AuthContext } from '../Context/AuthContext';
 const Skill = () => {
     const { SkillRef } = useContext(AuthContext)
     return (
-        <div ref={SkillRef}>
+        <div ref={SkillRef} className='px-5 lg:px-0'>
           
 
-            <div className="flex justify-center items-center mb-12">
+            <div className="  ">
                 <motion.h1
                     initial={{ opacity: 0, y: -30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     viewport={{ once: true }}
                     className="relative text-4xl sm:text-5xl font-extrabold text-transparent bg-clip-text 
-               bg-gradient-to-r from-[#09b2fa] via-[#99d6ef] to-[#10a8ea] tracking-wide"
+               bg-gradient-to-r from-[#09b2fa] text-center  via-[#99d6ef] to-[#10a8ea] tracking-wide"
                 >
                     My Skills
                     {/* glowing line */}
@@ -29,11 +29,14 @@ const Skill = () => {
                  shadow-[0_0_10px_#22c55e]"
                     ></motion.span>
                 </motion.h1>
-            </div>
+                  <GlassIcons></GlassIcons>
+                </div>
+              
+            
 
 
 
-            <GlassIcons></GlassIcons>
+           
         </div>
     );
 };

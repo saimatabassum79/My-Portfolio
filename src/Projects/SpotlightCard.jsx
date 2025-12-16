@@ -69,7 +69,7 @@ const ProjectCard = ({
               setIsOpen(true);
               setStoreId(id);
             }}
-            className="px-4 py-2 border border-[#0591cd] text-white text-sm sm:text-base rounded-md hover:bg-[#0e709a] hover:text-white transition-all"
+            className="px-4 py-2 border border-[#0591cd] text-white text-sm sm:text-base rounded-md hover:bg-[#0591cd] cursor-pointer hover:text-white transition-all"
           >
             View Details
           </button>
@@ -174,7 +174,7 @@ export default function SpotlightProjects() {
       <div className="text-center mt-14">
         <button
           onClick={() => setShowAll(!showAll)}
-          className="px-8 py-3 rounded-full bg-[#0591cd] text-white text-lg font-semibold shadow hover:bg-[#0e709a] transition"
+          className="px-8 py-3 rounded-full bg-[#0591cd] cursor-pointer text-white text-lg font-semibold shadow hover:bg-[#0e709a] transition"
         >
           {showAll ? "View Less" : "View All Projects"}
         </button>

@@ -7,7 +7,7 @@ const About = () => {
     const { aboutRef } = useContext(AuthContext)
     return (
         <div ref={aboutRef} className='max-w-[1400px] mx-auto' >
-            <LanyardCard title="Golam Faruk Adnan"
+            <LanyardCard title="Saima Tabassum"
                 subtitle="MERN Stack Developer"
                 img="/your-profile.jpg"
                 dropDelay={0.4}

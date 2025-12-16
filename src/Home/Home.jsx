@@ -5,13 +5,10 @@ import Skill from '../Skill/Skill';
 import Project from '../Projects/Project';
 import Contact from '../Contact/Contact';
 
-
-
-
 const Home = () => {
     return (
         <div className='mx-auto'>
-
+             
             <Hero></Hero>
 
 
@@ -31,7 +28,7 @@ const Home = () => {
             
              <Contact></Contact>
          </div> 
-
+          
 
         </div>
     );

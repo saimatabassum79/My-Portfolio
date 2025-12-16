@@ -45,7 +45,7 @@ const Hero = () => {
                     </a>
                     <button
                         onClick={()=>goToProjectSection(contactRef)}
-                        className="px-3 sm:px-6 py-1 sm:py-2 border border-[#56c5f4]  shadow-lg shadow-white/30 text-[#56c5f4] rounded-lg hover:bg-[#0e9ddb] hover:text-white transition text-sm sm:text-base"
+                        className="px-3 sm:px-6 py-1 sm:py-2 border  border-[#56c5f4]  shadow-lg shadow-white/30 text-[#56c5f4] rounded-lg hover:bg-[#0e9ddb] hover:text-white transition cursor-pointer text-sm sm:text-base"
                     >
                         Contact Me
                     </button>
